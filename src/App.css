@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+    color: #F2F2F1;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  .row{
+    display: flex;
+  }
+
+  .col{
+    width: 50%;
+  }
+
+  span{
+    color: #48484A;
+  }
+
+  button{
+    background-color: #EC6E4C;
+    color: #F2F2F1;
+    border: 0;
+    border-radius: .5rem;
+    padding: .5rem;
+    margin-top: .5rem;
+  }
+
+  .marginless{
+    margin: 0;
+  }
+
+  .weightless-txt{
+    font-weight: 400;
+  }
+
+  .color-txt{
+    color: #EC6E4C;
+  }
+
+  .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .card{
+    background-color: rgb(72, 72, 74, 0.15);
+    width: 35rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    padding: 1rem 1rem 1.5rem 1rem;
+  }
+
+  .temp-container{
+    text-align: center;
+  }
+
+  .temp-txt{
+    font-size: 32px;
+  }
+
+  .header{
+    text-align: center;
+  }
+
+  .weather-title{
+    text-align: center;
+  }
+
+  .weather-info{
+    padding-top: 1.9rem;
+  }
+
+  .info-container{
+    display: flex;
+    justify-content: center;
+  }
