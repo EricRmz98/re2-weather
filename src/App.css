@@ -50,11 +50,13 @@ html {
     padding: 1rem;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
   }
 
   .card{
-    background-color: rgb(72, 72, 74, 0.15);
-    width: 35rem;
+    background-color: rgb(149, 149, 150, 0.9);
+    width: 100%;
+    max-width: 40rem;
     margin: 0 auto;
     border-radius: 1rem;
     padding: 1rem 1rem 1.5rem 1rem;

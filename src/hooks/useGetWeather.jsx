@@ -15,8 +15,6 @@ const useGetWeather = () => {
         navigator.geolocation.getCurrentPosition(success)
     }, [])
 
-    console.log(weather)
-
     return {weather}
 };
 
