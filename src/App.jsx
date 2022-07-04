@@ -15,12 +15,12 @@ function App() {
       <div className='card'>
         <div className='header'>
           <h1 className='weightless-txt marginless'>Weather Now In</h1>
-          <h2 className='color-txt weightless-txt marginless'>
-            {`${weather.name}, ${weather.sys?.country}`}
+          <h2 className='weightless-txt mt-sm'>
+            <span className='accent-txt'>{`${weather.name}, ${weather.sys?.country}`}</span>
           </h2>
         </div>
         <div className='row'>
-          <div className='temp-container col'>
+          <div className='temp-container col-6 col-12'>
             <img
               src={`http://openweathermap.org/img/wn/${weather.weather?.[0].icon}@4x.png`}
               alt="" />
@@ -35,9 +35,9 @@ function App() {
               'Change to Celcius'}
             </button>
           </div>
-          <div className='info-container col'>
+          <div className='info-container col-6 col-12'>
             <div className='weather-info'>
-              <h2 className='color-txt weightless-txt weather-title'>"{weather.weather?.[0].description}"</h2>
+              <h2 className='weightless-txt weather-title'><span className='accent-txt'>"{weather.weather?.[0].description}"</span></h2>
               <h3 className='weightless-txt'>
                 <i className="fa-solid fa-wind"></i>
                 <span> Wind speed:</span> {weather.wind?.speed}m/s

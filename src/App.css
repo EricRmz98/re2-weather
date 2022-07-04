@@ -11,10 +11,15 @@ html {
 
   .row{
     display: flex;
+    flex-wrap: wrap;
   }
 
-  .col{
-    width: 50%;
+  .col-12{
+    width: 100%;
+  }
+
+  .mt-sm{
+    margin: .5rem 0 0 0;
   }
 
   span{
@@ -38,8 +43,11 @@ html {
     font-weight: 400;
   }
 
-  .color-txt{
+  .accent-txt{
     color: #EC6E4C;
+    background-color: #F2F2F1;
+    padding: .2rem .5rem;
+    border-radius: .2rem;
   }
 
   .container{
@@ -85,4 +93,10 @@ html {
   .info-container{
     display: flex;
     justify-content: center;
+  }
+
+  @media (min-width: 576px) {
+    .col-6{
+      width: 50%;
+    }
   }
